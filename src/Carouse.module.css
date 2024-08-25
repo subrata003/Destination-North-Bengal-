@@ -1,0 +1,14 @@
+.boximg img{
+ background-position: center;
+ background-size: cover;
+ width: 80vw;
+ height: 50vh;
+ 
+ 
+}
+.boximg2{
+ width: 100vw;
+ height: auto;
+ 
+
+}

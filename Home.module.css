@@ -1,0 +1,188 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.derjeeling1{
+   
+ height: 300px;
+ display: flex;
+
+ gap: 20px;
+ margin: 3rem;
+
+}
+.para{
+  font-family: "Mooli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+
+.derpic{
+ /* border: 2px solid black; */
+ width: 100%;
+}
+.derpic img{
+ height: 100%;
+ width: 100%;
+
+}
+.allkit{
+ margin-bottom: 10rem;
+}
+.dertext{
+ margin: 20px;
+ width: 100%;
+
+}
+.btn{
+ padding: 5px 15px;
+ border: none;
+ background-color: red;
+ color: white;
+ transition: all 0.5s ease-in-out;
+}
+.btn:hover{
+  transform: scale(0.9);
+}
+.btn1{
+  padding: 5px 15px;
+  border: none;
+  background-color: red;
+  color: white;
+  margin-bottom: 2rem;
+}
+.card{
+ display: flex;
+ flex-direction: row;
+ gap: 20px;
+margin:3rem;
+/* margin-top: 10rem; */
+/* border: 2px solid black; */
+}
+.hill{
+ width: 25%;
+ transition: all 0.5s ease-in-out;
+ box-shadow: 2px 5px 8px black;
+ }
+ .hill:hover{
+  transform: scale(0.9);
+ }
+.hill img{
+ width: 100%;
+ height: 100%;
+}
+.hill p{
+ margin-top: -24px;
+ color: white;
+ position: relative;
+ background-color: #0000009c;
+}
+
+.intro{
+  font-family: "Kalnia Glaze", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+ text-align: center;
+ margin: 2rem 0;
+}
+.Destinations{
+ text-align: center;
+ margin-top: 2rem;
+ font-family: "Dancing Script", cursive;
+ font-optical-sizing: auto;
+ font-weight: 700;
+ font-style: normal;
+}
+.other{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/* Width of the scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track (the background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #fff
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+  background:rgb(139, 139, 255);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f80095;
+}
+
+@media(max-width:720px){
+ .Destinations{
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 25px;
+ }
+ .derjeeling1{
+   
+  height: 300px;
+  display:block;
+ 
+  gap: 20px;
+  margin: 3rem;
+  /* border: 2px solid black; */
+ }
+ .allkit{
+ 
+   margin-bottom: 5rem;
+ }
+ .card{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+ margin:7rem 0rem;
+ /* border: 2px solid black; */
+ }
+ .hill{
+  width: 25%;
+  }
+  .hill img{
+    width: 100%;
+    height: 100%;
+   }
+ .dertext{
+  margin: 0px;
+  
+  width: 100%;
+ 
+ }
+ 
+ .dertext .para{
+ font-size: 10px;
+  /* width: 200px; */
+  text-overflow: clip;
+  overflow: hidden;
+ }
+ .hill img{
+  width: 100%;
+  height: 100%;
+ }
+ .hill p{
+  margin-top: -15px;
+  font-size: 11px;
+  color: white;
+  position: relative;
+  background-color: #0000009c;
+ }
+
+ 
+}

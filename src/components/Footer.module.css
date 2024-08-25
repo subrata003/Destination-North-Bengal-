@@ -1,0 +1,18 @@
+footer{
+ text-align: center; /* Centered text */
+  padding: 1em 0; /* Padding on top and bottom */
+  position: static; /* Fixed position at the bottom */
+  width: 100%; /* Full width */
+  bottom: 0; /* Align at the bottom */
+ background:linear-gradient(136deg, purple, black);
+ 
+}
+footer p{
+ 
+ text-align: center;
+ color: white;
+ line-height: 4rem;
+ font-size: 1.4rem;
+ margin: 0; /* Remove default margin */
+  
+}
